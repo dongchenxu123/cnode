@@ -1,0 +1,67 @@
+{
+  "name": "cnode",
+  "version": "1.0.0",
+  "description": "dfs",
+  "main": "bundle.js",
+  "dependencies": {
+    "antd": "^1.6.5",
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "jquery": "^2.2.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.5.2",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.0.11",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "axios": "^0.13.1",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.2.4",
+    "open-browser-webpack-plugin": "0.0.3",
+    "qs": "^6.3.0",
+    "react-hot-loader": "^1.3.1",
+    "react-router-redux": "^4.0.5",
+    "redux-actions": "^0.10.1",
+    "redux-devtools": "^3.3.1",
+    "redux-simple-router": "^2.0.4",
+    "redux-thunk": "^2.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-config": "^7.0.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.js --hot --inline --process --colors",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fsdfs"
+  },
+  "keywords": [
+    "sfsd"
+  ],
+  "author": "dong",
+  "license": "ISC"
+}
